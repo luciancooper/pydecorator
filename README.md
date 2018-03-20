@@ -9,3 +9,6 @@ Useful Python decorators
 
 #### sort
 > wrap comparison functions into array sorting algorithms
+
+#### pandas
+> wrap various pandas functions
