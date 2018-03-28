@@ -25,3 +25,18 @@ def file_generator(fn):
             for l in fn(*args,**kwargs):
                 f.write(l)
     return wrapper
+
+
+# Transpose Generators
+
+def transpose_generator(fn):
+    def wrapper(*args,**kwargs):
+        for x in zip(*fn(*args,**kwargs)):
+            yield list(x)
+    return wrapper
+
+def transpose_tuple_generator(fn):
+    def wrapper(*args,**kwargs):
+        for x in zip(*fn(*args,**kwargs)):
+            yield tuple(x)
+    return wrapper
