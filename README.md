@@ -12,3 +12,6 @@ Useful Python decorators
 
 #### pandas
 > wrap various pandas functions
+
+#### numpy
+> wrap various numpy functions

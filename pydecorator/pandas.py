@@ -39,3 +39,12 @@ def pd_concat(axis=0):
             return pd.concat([*fn(*args,**kwargs)],axis=axis)
         return wrapper
     return dec
+
+
+def df_reindex(name=None):
+    def dec(fn):
+        def wrapper(df):
+            inx = pd.Index([*map(fn,df.index)],name=(name if name!=None else df.index.names if df.index.ndim>1 else df.index.name))
+            return pd.DataFrame(df.values,index=inx,columns=df.columns)
+        return wrapper
+    return dec
