@@ -11,3 +11,8 @@ def np_c(fn):
     def wrapper(*args,**kwargs):
         return numpy.c_[(*fn(*args,**kwargs),)]
     return wrapper
+
+def np_rows(fn):
+    def wrapper(*args,**kwargs):
+        return numpy.array([*fn(*args,**kwargs)])
+    return wrapper
