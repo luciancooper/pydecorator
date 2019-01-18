@@ -1,17 +1,30 @@
 # pydecorator
 
-Useful Python decorators
+[![PyPI version shields.io](https://img.shields.io/pypi/v/pydecorator.svg)](https://pypi.python.org/pypi/pydecorator/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pydecorator.svg)](https://pypi.python.org/pypi/pydecorator/)
+[![PyPI license](https://img.shields.io/pypi/l/pydecorator.svg)](https://pypi.python.org/pypi/pydecorator/)
 
-## Groupings
+Useful Python decorator functions that facilitate a variety of tasks
 
-#### generator
-> wrap around functions that yield
+### Contents
+* [Installation](#installation)
+* [Documentation](#documentation)
 
-#### sort
-> wrap comparison functions into array sorting algorithms
+# Installation
 
-#### pandas
-> wrap various pandas functions
+Use `pip` via [PyPi](https://pypi.org)
 
-#### numpy
-> wrap various numpy functions
+```bash
+pip install pydecorator
+```
+**Or** use `git`
+
+```bash
+git clone git://github.com/luciancooper/pydecorator.git pydecorator
+cd pydecorator
+python setup.py install
+```
+
+# Documentation
+
+Full documentation can be found [here](https://pydecorator.readthedocs.io)

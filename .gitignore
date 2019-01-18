@@ -8,6 +8,12 @@
 
 files.txt
 
+# Hide All Jupyter Notebooks that begin with 'Scratch'
+Scratch*.ipynb
+
+# Hide visual studio code hidden files
+.vscode
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
