@@ -6,10 +6,6 @@
 
 Useful Python decorator functions that facilitate a variety of tasks
 
-### Contents
-* [Installation](#installation)
-* [Documentation](#documentation)
-
 # Installation
 
 Use `pip` via [PyPi](https://pypi.org)

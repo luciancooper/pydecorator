@@ -19,6 +19,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development',
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Utilities',
     ],
     packages=['pydecorator'],
